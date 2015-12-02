@@ -99,6 +99,18 @@ show innodb status
 show warnings [limit [offset,] row_count]
 show errors [limit [offset,] row_count]
 
+-- show procedure code 
+-- http://dev.mysql.com/doc/refman/5.7/en/show-procedure-code.html
+-- e.g.
+
+-- mysql> show procedure code p1;
+
+-- list procedures list
+-- http://stackoverflow.com/questions/733349/list-of-stored-procedures-functions-mysql-command-line
+-- e.g.
+-- mysql> show procedure status;
+-- or 
+-- mysql> show function status;
 
 -- show create table books;
 
