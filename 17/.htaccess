@@ -1,0 +1,6 @@
+ErrorDocument 401 /chapter16/rejection.html
+AuthUserFile C:/ProgramFiles/apache/httpd/Apache24/htdocs/17/.htpass
+AuthGroupFile nul
+AuthName "Realm-Name"
+AuthType Basic
+require valid-user
