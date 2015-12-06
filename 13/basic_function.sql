@@ -8,3 +8,8 @@ create function add_tax (price float) returns float
 //
 
 delimiter ;
+
+
+
+-- how to call the stored procedure
+declare 

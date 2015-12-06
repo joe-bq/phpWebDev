@@ -21,6 +21,22 @@ commit;
 rollback;
 
 
-- change one table to innodb
+-- change one table to innodb
 alter table orders type=innodb;
 alter table order_items type=innodb;
+
+
+
+-- turn off autocommit
+set autocommit=0;
+
+-- start transaction
+
+start transaction;
+
+-- commit a transaction
+commit;
+
+
+-- to rollback
+rollback;

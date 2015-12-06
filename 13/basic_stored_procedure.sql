@@ -12,3 +12,6 @@ end
 delimiter ;
 
 
+-- how to call the stored procedure
+call total_orders(@t);
+select @t;
